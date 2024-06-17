@@ -90,7 +90,7 @@ class Home extends Component {
          to format and render the current todo list state */}
         <Todos todos={this.state.todos} deleteTodo={this.deleteTodo} />
         <h1>Completed Todo's</h1>
-        <Todos todos={this.state.completedTodos} deleteTodo={this.deleteTodo} />
+        {/* <Todos todos={this.state.completedTodos} deleteTodo={this.deleteTodo} /> */}
         {/* <this.showCompleted dones={this.state.completedTodos} /> */}
 
       </div>
